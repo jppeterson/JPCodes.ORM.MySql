@@ -4,10 +4,10 @@ using System.Data.Common;
 
 namespace JPCodes.ORM.MySql
 {
-    public class MySqlDataRecordAttribute : DataRecordAttribute
+    public class MySqlTablettribute : TableAttribute
     {
-        public MySqlDataRecordAttribute() : base() { }
-        public MySqlDataRecordAttribute(string tableName) : base(tableName) { }
+        public MySqlTablettribute() : base() { }
+        public MySqlTablettribute(string tableName) : base(tableName) { }
 
         public override string ParameterPrefix => "?";
         public override string EncloseObject(string item) => $"`{item}`";
