@@ -6,7 +6,7 @@
     <Company>JPCodes</Company>
     <Product />
     <Description>MySql implementation of the DataRecordAttribute in JPCodes.ORM.</Description>
-    <Version>1.2.0</Version>
+    <Version>1.2.1</Version>
     <PackageReleaseNotes>Added constructor for tablename</PackageReleaseNotes>
   </PropertyGroup>
 
